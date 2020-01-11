@@ -8,10 +8,26 @@
     
 }
 .container{
+
     width: 100%;
+    top: -90px;
     height: 2000px;
-    background-color: #f9f9f9;
-    
+   /* background-color: #f9f9f9;*/
+    background-color:red;
+    margin-top: 90px;  
+}
+ul{ 
+    display: flex;
+    flex-direction: column;
+    float: right;
+    list-style-type: none;
+    margin-left: -40px;
+    width: 500px;
+
+    background-color: yellowgreen;
+}
+li{
+    padding-top: 8px;
 }
 .search{
     height: 34px;
@@ -102,11 +118,7 @@ hr{
     width: 750px;
 }
 .youtube_channle{
-    width: 756px;
-    height: 70px;
-    left: 250px;
-    top: 520px;
-    
+
 }
 
 .profile_pic{
@@ -228,10 +240,3 @@ p{
     
 }
 
-ul{ float: right;
-    list-style-type: none;
-    margin-left: -40px;
-}
-li{
-    padding-top: 8px;
-}
