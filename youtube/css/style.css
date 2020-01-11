@@ -1,0 +1,258 @@
+
+.nav{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    
+}
+.you_body{
+    position: absolute;
+    width: 1519px;
+    height: 2000px;
+    background-color: #f9f9f9;
+}
+.search{
+    height: 34px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px
+}
+.searchi{
+    display: flex;
+    height: 54px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+   
+}
+.btn_search{
+    height: 39px;
+    width: 100px;
+}
+.url{
+    display: flex;
+    position: absolute;
+    left: 1300px;
+    top: 17px
+}
+.image{
+    
+    width: 30px;
+    left: 40px;
+    padding: 7px;
+    border-radius: 50%;
+
+    
+}
+
+.sidbar{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 15px
+}
+#you_logo{
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 10px;
+    top: 17px;
+    
+}
+.menu{
+    width: 28px;
+    top: -15px;
+    padding-right: 16px;
+}
+.video{
+    position: absolute;
+    width: 576px;
+    height: 360px;
+    left: 250px;
+    top: 20px;
+}
+h1{
+    font-size: 18px;
+    font-weight: normal;
+    color: #0D0D0D;
+}
+span{
+    font-size: 14px;
+    color: #606060;
+    margin-top: 7px;
+}
+.top_level_btn{
+    position: absolute;
+    display: flex;
+    left: 500px;
+    top: 440px;
+    
+}
+.level{
+    width: 24px;
+    padding: 3px;
+    text-decoration: none;
+    color: #606060;
+}
+.level_share{
+    width: 25px;
+    padding: 3px;
+    margin-left: 20px;
+}
+hr{
+    width: 750px;
+}
+.youtube_channle{
+    position: absolute;
+    width: 756px;
+    height: 70px;
+    left: 250px;
+    top: 520px;
+    
+}
+
+.profile_pic{
+    display: inline-block;
+    width: 50px;
+    left: 40px;
+    padding: 7px;
+    border-radius: 50%;
+
+    
+}
+.info{
+    position: relative;
+    width: 600px;
+    left: 70px;
+    top: -50px;
+}
+.subsecrib{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 540px;
+    top: -80px;
+  
+}
+.sub_num{
+    
+    font-size: 14px;
+    color: #606060;
+    margin-top: 7px;
+
+}
+h2{
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.info_name{
+    font-size: 14px;
+}
+.notifications{
+    position: absolute;
+    width: 33px;
+    margin-left: 144px;
+    
+}
+.subs{
+    position: absolute;
+    width: 114px;
+    height: 36px;
+    margin-left: 14px;
+    font-size: 14px;
+    color: #606060;
+    
+}
+.comment{
+    position: relative;
+    top: -120px;
+    padding: 60px;
+    
+
+}
+p{
+    font-size: 14px;
+}
+
+.comments{
+    position: absolute;
+    width: 800px;
+    top: 250px
+}
+.sort_by{
+    text-decoration: none;
+    font-size: 14px;
+    color: #606060;
+}
+.comment_pic{
+    display: block;
+    width: 40px;
+    left: 40px;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+.add_comment{
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    width: 600px;
+    padding-bottom: 20px;
+    top: -50px;
+}
+.cancel{
+    margin-left: -50px;
+}
+.like_comm{
+    width: 16px;
+    display: block;
+}
+.right_sidbar{
+    position: absolute;
+    width: 400px;
+    height: 1200px;
+    left: 1040px;
+    top: 25px;
+}
+.img_video{
+    width: 168px;
+    
+}
+
+.title_{
+    position: absolute;
+
+    font-size: 14px;
+    color: #000;
+    margin-left: 6px;
+}
+.channel_name{
+    position: absolute;
+    font-size: 13px;
+    color: #606060;
+    margin-top: 44px;
+    margin-left: 6px;
+}
+.channel_views{
+    position: absolute;
+    font-size: 13px;
+    color: #606060;
+    margin-left: 6px;
+    margin-top: 60px;
+}
+.next{
+    top: 100px;
+    width: 320px;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+li{
+    padding-top: 8px;
+}
