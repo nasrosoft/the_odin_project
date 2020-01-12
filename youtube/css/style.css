@@ -146,6 +146,8 @@ hr{
     
 }
 .info{
+    display: flex;
+    flex-direction: row;
     margin-top: 15px;
 
 }
@@ -154,12 +156,16 @@ hr{
     
 }
 .sub_num{
-    
+    border: 0;
     font-size: 14px;
     color: #606060;
     margin-top: 7px;
     margin-bottom: 20px;
-
+    background-color: #f9f9f9;
+}
+.your_comment{
+    display: flex;
+    flex-direction: row;
 }
 h2{
     display: inline-block;
@@ -171,22 +177,23 @@ h2{
 }
 .notifications{
     position: absolute;
-    width: 43px;
     margin-left: 144px;
-    
+    fill: #909090;
+    margin-top: 7px
 }
 .subs{
     position: absolute;
+    border: 0;
     width: 114px;
     height: 36px;
     margin-left: 14px;
     font-size: 14px;
     color: #606060;
     
+    
 }
 .comment{
     top: -120px;
-    padding: 60px;
 }
 p{
     font-size: 14px;
@@ -202,7 +209,6 @@ p{
     color: #606060;
 }
 .comment_pic{
-    display: block;
     width: 40px;
     left: 40px;
     padding: 7px;
@@ -210,14 +216,12 @@ p{
 
 }
 .add_comment{
-    display: inline-block;
-    left: 70px;
     width: 600px;
     padding-bottom: 20px;
-    top: -50px;
 }
 .cancel{
-    margin-left: -50px;
+    margin-left: 500px;
+    margin-top: 5px;
 }
 .like_comm{
     width: 16px;
@@ -252,4 +256,54 @@ p{
     width: 320px;
     
 }
-
+/*    sidbar  */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #FFFFFF; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/*    sidbar  */

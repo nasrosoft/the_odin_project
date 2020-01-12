@@ -9,9 +9,21 @@
     <title>youtube</title>
 </head>
 <body>
+    <!--  sidbar  -->
+    <div id="mySidenav" class="sidenav">
+        <div class="sidbar_onClick">
+        <a href="javascript:void(0)"><img src="img/sidbar_menu.png" alt="youtube"onclick="closeNav()" class="menu"></a>
+        <a href="#"><img src="img/youtube_logo.png" alt="youtube"id="you_logo"></a></div>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+    <!--  sidbar  -->
     <div class="nav">
         <div class="sidbar">
-            <a href="#"><img src="img/sidbar_menu.png" alt="youtube"class="menu"></a>
+            <a href="#"><img src="img/sidbar_menu.png" alt="youtube"onclick="openNav()" class="menu"></a>
             <a href="#"><img src="img/youtube_logo.png" alt="youtube"id="you_logo"></a>
         </div>
         <form>
@@ -65,7 +77,7 @@
                 </li>
     </ul>
             
-            <div class="container"> 
+            <div class="container" id="main"> 
             <div class="video">
                 <iframe width="760" height="415"
                     src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -88,8 +100,12 @@
                         <span class="sub_num">896 subscribers</span>
                     </div>
                     <div class="subsecrib">
-                        <input type="submit" value="SUBSECRIBED" class="subs">
-                        <a href="#"><img src="img/notification-youtube.png" class="notifications"></a>
+                        
+                        <button class="subs">SUBSECRIBED</button>
+                        <a href="#"class="notifications"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style=" display: block; width: 24; height: 24px;"><g class="style-scope yt-icon">
+                            <path d="M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z" class="style-scope yt-icon"></path>
+                          </g></svg></a>
+                        
                     </div>
                 </div>
                     <div class="comment">
@@ -102,17 +118,19 @@
                         <hr>
                         <span>14 Comments&nbsp;&nbsp;</span>
                         <a href="#" class="sort_by"><span>&nbsp;&nbsp;SORT BY</span></a><br><br>
-                        <a href="#"><img src="img/profile_channel.jpg" class="comment_pic"></a>
-                        <input type="text"class="add_comment" placeholder="Add a public comment..">
-                        <button class="cancel">CANCEL</button>
-                        <button>COMMENT</button><br><br><br><br><br>
-                        <a href="#"><img src="img/profile_channel.jpg" class="comment_pic"></a>
-                        <div class="info">
-                            <div class="info_name">The Odin Project</div>
-                            <span class="sub_num">use your powers for good" haha
-                                thank you for the video.</span><span><img src="img/thumbs-up-solid.svg" class="like_comm">
-                            </span>
+                            <div class="your_comment">
+                            <a href="#"><img src="img/profile_channel.jpg" class="comment_pic"></a>
+                            <input type="text"class="add_comment" placeholder="Add a public comment..">
                         </div>
+                            <button class="cancel">CANCEL</button>
+                            <button>COMMENT</button><br>
+                            <div class="info">
+                                <a href="#"><img src="img/profile_channel.jpg" class="comment_pic"></a>
+                                <div class="info_name">The Odin Project</div>
+                                <span class="sub_num">use your powers for good" haha
+                                    thank you for the video.</span><span><img src="img/thumbs-up-solid.svg" class="like_comm">
+                                </span>
+                            </div>
                         <a href="#"><img src="img/profile_channel.jpg" class="comment_pic"></a>
                         <div class="info">
                             <div class="info_name">ABACHI NASSER</div>
@@ -141,6 +159,15 @@
                 x.style.display = "none";
             }
             }
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
     </script>
 </body>
 </html>
