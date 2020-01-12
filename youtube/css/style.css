@@ -1,4 +1,6 @@
-
+html{
+    background-color: #f9f9f9;
+}
 .nav{
     position: fixed;
     width: 100%;
@@ -8,13 +10,17 @@
     
 }
 .container{
-
-    width: 100%;
-    top: -90px;
-    height: 2000px;
-   /* background-color: #f9f9f9;*/
-    background-color:red;
+    
+    width: 760px;
+    margin-left: 200px;
     margin-top: 90px;  
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    width:760px;
+    left: 250px;
+    
 }
 ul{ 
     display: flex;
@@ -22,9 +28,7 @@ ul{
     float: right;
     list-style-type: none;
     margin-left: -40px;
-    width: 500px;
-
-    background-color: yellowgreen;
+    width: 500px
 }
 li{
     padding-top: 8px;
@@ -80,12 +84,6 @@ li{
     top: -15px;
     padding-right: 16px;
 }
-.video{
-    width: 576px;
-    height: 360px;
-    left: 250px;
-    top: 20px;
-}
 h1{
     font-size: 18px;
     font-weight: normal;
@@ -99,8 +97,8 @@ span{
 .top_level_btn{
     position: absolute;
     display: flex;
-    left: 500px;
-    top: 440px;
+    left: 700px;
+    top: 530px;
     
 }
 .level{
@@ -118,7 +116,12 @@ hr{
     width: 750px;
 }
 .youtube_channle{
-
+    display: flex;
+    flex-direction: column;
+}
+.channel_youtube{
+    display: flex;
+    flex-direction: row;
 }
 
 .profile_pic{
@@ -131,21 +134,19 @@ hr{
     
 }
 .info{
-    width: 600px;
-    left: 70px;
-    top: -50px;
+    margin-top: 15px;
+
 }
 .subsecrib{
-    width: 200px;
-    height: 40px;
-    left: 540px;
-    top: -80px
+   margin-left: 350px;
+    
 }
 .sub_num{
     
     font-size: 14px;
     color: #606060;
     margin-top: 7px;
+    margin-bottom: 20px;
 
 }
 h2{
