@@ -124,8 +124,15 @@ span{
     margin-left: 20px;
     margin-top: 7px;
 }
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 168px;
+    margin-top: -101px;
+}
 hr{
     width: 750px;
+    border-bottom: 1px solid var(--yt-spec-10-percent-layer);
 }
 .youtube_channle{
     display: flex;
@@ -242,19 +249,34 @@ p{
     font-size: 13px;
     color: #606060;
     margin-top: 44px;
-    margin-left: 6px;
+    margin-left: -235px;
 }
 .channel_views{
 
     font-size: 13px;
     color: #606060;
-    margin-left: 6px;
+    margin-left: -83px;
     margin-top: 60px;
+    
 }
 .next{
-    top: 100px;
-    width: 320px;
     
+    width: 320px;
+    display: block;
+    border-bottom: 1px solid var(--yt-spec-10-percent-layer);
+    margin-bottom: 16px;
+    margin-top: 43px;
+    
+}
+.sidbar_onClick{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+}
+#sid_hr{
+    border-top: 1px solid var(--yt-spec-10-percent-layer);
+    margin-top: 12px;
+    padding-top: 12px;
 }
 /*    sidbar  */
 /* The side navigation menu */
@@ -267,16 +289,17 @@ p{
     left: 0;
     background-color: #FFFFFF; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 69px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
+    
+}
   
   /* The navigation menu links */
-  .sidenav a {
+#le {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 14px;
+    color: #0D0D0D;
     display: block;
     transition: 0.3s;
   }

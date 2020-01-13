@@ -12,15 +12,38 @@
     <!--  sidbar  -->
     <div id="mySidenav" class="sidenav">
         <div class="sidbar_onClick">
-        <a href="javascript:void(0)"><img src="img/sidbar_menu.png" alt="youtube"onclick="closeNav()" class="menu"></a>
-        <a href="#"><img src="img/youtube_logo.png" alt="youtube"id="you_logo"></a></div>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="javascript:void(0)"><img src="img/sidbar_menu.png" alt="youtube"onclick="closeNav()" style="width: 28px;
+            padding-right: 16px;
+            width: 28px;
+            padding-left: 17px;
+            padding-top: 5px;"></a>
+        <a href="#"><img src="img/youtube_logo.png" alt="youtube" style="width: 100px;
+            margin-top: 0px;
+            margin-left: 10px;
+            top: 17px;
+            padding: 0;"></a></div>
+            <hr id="sid_hr">
+        <a href="#" id="le">Home</a>
+        <a href="#"id="le">Trending</a>
+        <a href="#"id="le">Subscriptions</a>
+        <hr id="sid_hr">
+        <a href="#"id="le">Library</a>
+        <a href="#"id="le">History</a>
+        <a href="#"id="le">Watch later</a>
+        <a href="#"id="le">Like videos</a>
+        <hr id="sid_hr">
+        <span>MORE FROM YOUTUBE</span>
+        <a href="#"id="le">Gamming</a>
+        <a href="#"id="le">Live</a>
+        <hr id="sid_hr">
+        <a href="#"id="le">Setting</a>
+        <a href="#"id="le">Report history</a>
+        <a href="#"id="le">Help</a>
+        <a href="#"id="le">Send feedback</a>
       </div>
       
-    <!--  sidbar  -->
+    <!--  sidbar end -->
+<div id="main" style="padding: 0;">
     <div class="nav">
         <div class="sidbar">
             <a href="#"><img src="img/sidbar_menu.png" alt="youtube"onclick="openNav()" class="menu"></a>
@@ -45,12 +68,15 @@
     <ul>
         <li>
                     <img src="img/video_01.webp" class="img_video">
-                    <span class="title_"> First GitHub Pull Request (in 10 Mins)</span>
-                    <span class="channel_name"> Jackson Bates</span>
-                    <span class="channel_views"> 40K views</span>
+                    <div class="details">
+                        <span class="title_"> First GitHub Pull Request (in 10 Mins)</span>
+                        <span class="channel_name"> Jackson Bates</span>
+                        <span class="channel_views"> 40K views</span>
+                    </div>
                     <hr class="next">
                 </li>
                 <li><img src="img/video_02.webp" class="img_video">
+                    
                     <span class="title_"> السليط الإخباري - الحرب العالمية الثالثة | الحلقة (1) الموسم الثامن</span>
                     <span class="channel_name"> AJ+ كبريت</span>
                     <span class="channel_views"> Recommended for you</span>
@@ -77,7 +103,7 @@
                 </li>
     </ul>
             
-            <div class="container" id="main"> 
+            <div class="container"> 
             <div class="video">
                 <iframe width="760" height="415"
                     src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -111,7 +137,7 @@
                     <div class="comment">
                         <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open
                             <span id="more">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open</span></p>
-                        <button class="sub_num" id="show_more" onclick="myFunction()">SHOW MORE</button>
+                        <input type="button" class="sub_num" id="show_more" onclick="myFunction()" value="SHOW MORE">
                             
                     </div>
                     <div class="comments">
@@ -149,24 +175,30 @@
                     </div>
             </div>
             </div>
-    
+        </div>
     <script>
         function myFunction() {
             var x = document.getElementById("more");
+            var y = document.getElementById("show_more");
             if (x.style.display === "none") {
                 x.style.display = "block";
+                y.value = "SHOW LESS";
             } else {
                 x.style.display = "none";
+                y.value = "SHOW MORE";
             }
             }
         /* Set the width of the side navigation to 250px */
         function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.opacity = .5;
+
         }
 
         /* Set the width of the side navigation to 0 */
         function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.opacity = 1;
         }
     </script>
 </body>
