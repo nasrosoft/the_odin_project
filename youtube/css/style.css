@@ -14,7 +14,15 @@ body{
     padding: 0px 16px;
     top: 0;
     background-color: white;
-    
+    opacity: .99
+}
+.right_sid li{
+    padding-bottom: 25px;
+}
+.right_sid{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
 }
 .container{
     
@@ -106,11 +114,13 @@ span{
     margin-top: 10px;
 }
 .top_level_btn{
-    position: absolute;
     display: flex;
-    left: 700px;
-    top: 530px;
+    margin-left: 316px;
     
+}
+.top_level_btn_comm{
+    display: flex;
+    margin-top: 5px;    
 }
 .level{
     width: 34px;
@@ -154,11 +164,26 @@ hr{
 }
 .info{
     display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+.info_comm{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.info_{
+    display: flex;
     flex-direction: row;
     margin-top: 15px;
 
 }
+.video_dis{
+    display: flex;
+    flex-direction: row;
+}
 .subsecrib{
+    display: flex;
    margin-left: 350px;
     
 }
@@ -181,15 +206,14 @@ h2{
 }
 .info_name{
     font-size: 14px;
+    width: 212px
 }
 .notifications{
-    position: absolute;
-    margin-left: 144px;
+    margin-left: 14px;
     fill: #909090;
     margin-top: 7px
 }
 .subs{
-    position: absolute;
     border: 0;
     width: 114px;
     height: 36px;
@@ -224,14 +248,19 @@ p{
 }
 .add_comment{
     width: 600px;
-    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #EDEDED;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 .cancel{
     margin-left: 500px;
     margin-top: 5px;
 }
 .like_comm{
-    width: 16px;
+    width: 25px;
     display: block;
 }
 
