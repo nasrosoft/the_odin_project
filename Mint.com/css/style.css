@@ -1,5 +1,6 @@
 body{
     background-color:#edeef2;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 header{
     height: 60px;
@@ -39,18 +40,17 @@ ul{
 .logo ul li a{
     text-decoration: none;
     color:#6c6d71;
-    font-family: Helvetica,Arial,sans-serif;
     padding: 3px;
 }
 .main_g{
-    height: 669px;
+    height: 570px;
     margin: auto;
     text-align: center;
 
 }
 .main{
     width: 330px;
-    height: 669px;
+    height: 569px;
     margin: auto;
     padding: 30px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -112,4 +112,34 @@ input{
     border-radius: 4px;
     font-size: 16px;
     color: #fff;
+}
+.footer_main{
+    position: relative;
+    top: 17px;
+    margin-top: 28px;
+    line-height: 1.7;
+    color: #757575;
+    font-size: 12px;
+
+}
+.footer_main a {
+    display: inline;
+}
+.section_footer{
+    width: 390px;
+    height: 52px;
+    background-color: #eceef1;
+    margin-left: -30px;
+    /* border: 1px solid; */
+    margin-bottom: -12px;
+    top: 33px;
+    position: relative;
+}
+footer{
+    width: 1301px;
+    height: 97px;
+}
+.Privacy{
+    position: fixed ;
+    float: right;
 }
