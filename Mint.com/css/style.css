@@ -1,3 +1,115 @@
 body{
-    background-color:#f8f8f8;
+    background-color:#edeef2;
+}
+header{
+    height: 60px;
+    padding: 10px 30px;
+    
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    float: right;
+    flex-direction: row;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 35px;
+    text-align: center;
+}
+.logo img{
+    width: 140px;
+}
+ul{
+    width: 363px;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    margin: 20px auto 0;
+    text-align: center;
+    list-style: none; 
+    font-size: 20px;
+}
+.logo ul li img{
+    width: 23px;
+}
+.logo ul li a{
+    text-decoration: none;
+    color:#6c6d71;
+    font-family: Helvetica,Arial,sans-serif;
+    padding: 3px;
+}
+.main_g{
+    height: 669px;
+    margin: auto;
+    text-align: center;
+
+}
+.main{
+    width: 330px;
+    height: 669px;
+    margin: auto;
+    padding: 30px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+}
+h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: #4c4c4c;
+    margin: 0;
+}
+h6{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px ;
+    color: #4c4c4c;
+}
+.main a {
+    display: block;
+    font-size: 12px;
+    text-decoration: none;
+    color: #0077c5;
+}
+.head{
+    padding: 0 0 20px;
+}
+label{
+    display: block;
+    text-align: left;
+    padding: 0 0 6px;
+    font-size: 14px;
+    color: #404040;
+}
+input{
+    display: block;
+    width: 320px;
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    border: 1px solid #c1c5c8;
+    border-radius: 3px;
+    
+}
+.error{
+    width: 320px;
+    height: 20px;
+    margin: 5px 0;
+}
+.main p {
+    font-size: 10px;
+}
+.submit{
+    width: 100%;
+    height: 44px;
+    background-color: #0077c5;
+    border: 1px solid #0077c5;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
 }
