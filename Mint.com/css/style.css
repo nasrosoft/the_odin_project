@@ -8,10 +8,31 @@ header{
     
 }
 nav{
-    padding: 10px 30px;
+    padding: 5px 30px;
     display: flex;
     float: right;
     flex-direction: row;
+}
+nav div{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 1px;
+    margin-right: 6px;
+    color: #4c4c4c;
+}
+nav div a {
+    text-decoration: none;
+    color: #0077C5;
+}
+nav button{
+    height: 35px;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color: #0077C5;
 }
 p{
     padding: 0;
@@ -24,7 +45,7 @@ p{
 .logo img{
     width: 140px;
 }
-ul{
+.logos{
     width: 363px;
     display: flex;
     flex-direction: row;
@@ -141,5 +162,40 @@ footer{
 }
 .Privacy{
     position: fixed ;
+    padding: 10px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #323232;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #323232;
+}
+.fixed_btn{
+    width: 184px;
     float: right;
+}
+footer{
+    width: 1301px;
+    height: 97px;
+    text-align: center;
+    margin: 0 72px 0 72px;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #505050;
+}
+footer ul li {
+    
+    padding: 5px;
+    font-size: 12px;
+}
+footer ul {
+    width: 211px;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    margin: 2px auto 0;
+    text-align: center;
+    list-style: none; 
+    font-size: 20px;
+    font-size: 12px;
 }
