@@ -141,7 +141,6 @@ input{
     line-height: 1.7;
     color: #757575;
     font-size: 12px;
-
 }
 .footer_main a {
     display: inline;
@@ -178,6 +177,7 @@ footer{
 footer{
     width: 1301px;
     height: 97px;
+    display: unset;
     text-align: center;
     margin: 0 72px 0 72px;
     padding: 20px 0;
@@ -190,8 +190,8 @@ footer ul li {
     font-size: 12px;
 }
 footer ul {
-    width: 134px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     height: 35px;
     margin: 2px auto 0;
