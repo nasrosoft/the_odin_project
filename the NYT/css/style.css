@@ -72,20 +72,18 @@ nav .right_nav{
 }
 section{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     
     background-color: yellow;
 }
 article{
     width: 1200px;
-    /* height: 400px; */
     font-weight: bold;
     background-color: yellowgreen;
 }
 .figcaption{
     width: 392px;
-     height: 94px;
+    height: 94px;
     font-weight: bold;
     padding-top: 100px;
     font-family: Cheltenham;
