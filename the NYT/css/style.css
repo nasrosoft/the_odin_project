@@ -83,18 +83,24 @@ article{
     font-weight: bold;
     background-color: yellowgreen;
 }
-figcaption{
-    width: 444px;
-    /* height: 20px; */
+.figcaption{
+    width: 392px;
+     height: 94px;
     font-weight: bold;
-    background-color: rgb(87, 109, 42);
     padding-top: 100px;
+    font-family: Cheltenham;
     font-size: 40px;
+    font-style: italic;
     margin-left: 323px;
     padding-bottom: 26px;
 }
 figure img{
     width: 1200px;
     height: 675px;
+}
+.fig{
+    margin-top: 6px;
+    font-size: 15px;
+    color: #666666;
 }
 
