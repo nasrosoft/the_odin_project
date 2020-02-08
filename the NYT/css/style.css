@@ -77,12 +77,12 @@ section{
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 article{
     width: 1200px;
     font-weight: bold;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 .figcaption{
     width: 419px;
@@ -110,7 +110,7 @@ figure img{
     display: flex;
     justify-content: center;
     margin-top: 56px;
-    background-color: crimson;
+    /* background-color: crimson; */
 }
 .auteur{
     width: 600px;
@@ -118,12 +118,12 @@ figure img{
     color: #333333;
     font-size: 15px;
     font-weight: bold;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 .The_Theory{
     width: 74%;
     margin: auto;
-    background-color: aliceblue;    
+    /* background-color: aliceblue;     */
 }
 .The_Theory p{
     font-size: 14px;
@@ -132,6 +132,28 @@ figure img{
 }
 .The_Theory img{
     margin-top: 14px;
+}
+.grid-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 213px 228px 246px 246px;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+    background-size: cover;
+}
+.grid-item{
+    width: 204px;
+    margin-top: 136px;
+    font-size: 14px;
+    font-weight: 100;
+}
+#hr_{
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 46px 0 13px;
+    background-color: #000
 }
 
 .auteur a {
