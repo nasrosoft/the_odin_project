@@ -39,6 +39,7 @@ nav .right_nav{
     font-size: 11px;
     font-weight: bold;
     color: #fff;
+    cursor: pointer;
 }
 .account {
     border: 0;
@@ -46,6 +47,7 @@ nav .right_nav{
     color: #121212;
     padding-right: 6px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .left_nav {
@@ -74,12 +76,12 @@ section{
     display: flex;
     justify-content: center;
     
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 article{
     width: 1200px;
     font-weight: bold;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 .figcaption{
     width: 392px;
@@ -97,8 +99,53 @@ figure img{
     height: 675px;
 }
 .fig{
+    width: 850px;
     margin-top: 6px;
     font-size: 15px;
     color: #666666;
 }
+.auteurs{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    /* background-color: crimson; */
+}
+.auteur{
+    width: 600px;
+    height: 300px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    /* background-color: cornflowerblue; */
+}
+.auteur a {
+    text-decoration: none;
+    color: #333333;
+    font-family: "Cheltenham";  
+}
+#date{
+    font-size: 14px;
+    font-weight: initial;
+    font-family: "Cheltenham";
+}
 
+.auteur_detail{
+    margin-top: 25px;
+}
+.social_media{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.social_media li{
+    margin-right: 16px;
+    text-align: center;
+    background-color: #EEE;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
