@@ -131,7 +131,7 @@ figure img{
 .The_Theory{
     width: 74%;
     margin: auto;
-    background-color: aliceblue;    
+    /* background-color: aliceblue;     */
 }
 .The_Theory p{
     font-size: 14px;
@@ -222,7 +222,7 @@ figure img{
     display: inline; font-size: 13px; color: #888;
 }
 #p_inline a {
-    font-size: 13px; color: #888;
+    font-size: 13px; color: #888;    line-height: 1;
 }
 .more_in_space{
     width: 1200px;
@@ -242,7 +242,7 @@ figure img{
 .most_popular div{
     width: 318px;
     height: 37px;
-    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
 
 }
@@ -291,4 +291,23 @@ figure img{
     font-size: 12px;
     color: #999;
     margin-top: 8px;
+}
+.footer{
+    width: 1200px;
+    margin: auto;
+    background-color: yellowgreen;
+}
+.head_footer{
+    display: flex;
+}
+.logo_footer{
+    width: 195px;
+    left: 42%;
+    padding-top: 9px;
+}
+.logo_footer a{
+    margin-left: 884px;   
+    margin-top: 13px;
+    font-size: 11px;
+    color: #567b95;
 }
