@@ -101,10 +101,16 @@ figure img{
     height: 675px;
 }
 .fig{
+    display: inline-block;
     width: 850px;
     margin-top: 6px;
+    
+    
+}
+.fig span{
     font-size: 15px;
     color: #666666;
+    font-weight: normal;
 }
 .auteurs{
     width: 1200px;
@@ -338,9 +344,41 @@ figure img{
     text-decoration: none;
     font-size: 14px;
     color: #000;
-    font-weight: normal;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .grid-item_footer ul li a svg{
     width: 13px;
     margin-right: 7px;
+}
+.inline_footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+    margin-left: 103px;
+}
+.inline_footer ul li{
+    margin-left: 14px;
+}
+.inline_footer ul li a{
+    font-size: 11px;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    width: 100%;
+    height: 55px;
+    margin-left: -160px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+}
+footer a{
+    margin-top: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
