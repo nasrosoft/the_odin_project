@@ -40,3 +40,26 @@ li div{
     margin-top: 47px;
     margin-left: -59px;
 }
+.Articles{
+    width: 339px;
+    height: 55px;
+    margin: auto;
+    align-items: center;
+    background-color: slategray;
+}
+.sous-Articles{
+    width: 189px;
+    height: 55px;
+    margin: auto;
+    align-items: center;
+    background-color: slategray;
+}
+.row{
+    display: grid;
+    grid-template-columns: 751.5px 751.5px;;
+
+}
+.column{
+    height: 670px;
+    background-color: rgb(211, 211, 211);
+}
