@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    display: inline;
+    list-style: none;
+    position: relative;
+    line-height: 32px;
+}
+li a{  
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: hsla(0,0%,100%,.6);
+}
+.active, li a:hover{  
+    color: #fff
+}
+.up_nav{
+    height: 32px;
+    background-color: black;
+}
+
+.clear a{
+    font-size: 14px;
+    color: #555555;
+    padding: 18px 24px 0 10px;
+}
+.clear a:hover{
+    color: black;
+}
+.target_link{
+    height: 30px;
+    background-color: yellow;
+    font-size: 14px;
+    color: black;
+}
+#target{
+    text-decoration: none;
+}
+.target_link span{
+    margin-left: 50px;
+    line-height: 32px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1000px 519px;
+
+}
+.row div{ 
+    margin: 5px;
+}
+.box_1{
+    grid-row: 1/3;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-26-796x417.jpg);
+    background-size: cover;
+}
+.box_2{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/slack-distraction-796x417.png);
+    background-size: cover;
+    
+}
+.box_3{
+    
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/PlayStation-Logo-796x416.jpg);
+    background-size: cover;
+    
+}
+a img{
+    width: 450px;
+    margin: 20px;
+}
+h5{
+    margin-top: 55px;
+    margin-left: 20px;
+}
+h2{
+
+    margin-left: 20px;
+}
+h2 a{
+    font-size: 52px;
+    color: white;
+
+}
+a {
+    text-decoration: none;
+}
+h5 a{
+    font-size: 14px;
+    color: white;
+}
+time{
+    float: right;
+    margin-right: 11px;
+    margin-top: 11px;
+    color: white;
+}
+li svg{
+    width: 16px;
+    height: 16px;
+    color: hsla(0,0%,100%,.6);
+}
+.disc{
+    margin-top: -6px;
+    align-items: center;
+    display: flex;
+}
+.disc li{
+    display: flex;
+    margin-left: 14px;
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+}
+.box_2 h2 a, .box_3 h2 a{
+    font-size: 28px;
+}
+.box_3 .disc, .box_2 .disc{
+    padding: 11px;
+}
+section{
+    width: 1152px;
+    margin: auto;
+    background-color: teal;
+    margin-top: 56px;
+
+}
+section h2{
+    display: block;
+    margin-left: 0;
+    margin-bottom: 24px;
+    background-color: saddlebrown;
+}
+section a{
+    font-size: 28px;
+    color: red;
+    
+}
+section svg{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+.for_coll{
+    display: grid;
+    grid-template-columns: 294px 294px 294px 294px ;
+}
