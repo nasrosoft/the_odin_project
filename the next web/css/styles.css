@@ -153,7 +153,14 @@ section svg{
 .for_coll img{
     padding-bottom: 4px;
     width: 270px;
+    height: 139px;
     margin: 0;
+}
+.for_coll .sold{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -81px;
+    width: 81px;
 }
 .for_coll h4{
     cursor: pointer;
@@ -241,6 +248,7 @@ section svg{
     display: grid;
     grid-template-columns: 392px 392px 392px ;
     padding-top: 86px;
+    margin-bottom: 40px;
 }
 .apps_1 article, .apps_2 article , .apps_3 article , .apps_4 article , .apps_5 article , .apps_6 article, .apps_7 article, .apps_8 article{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/slack-distraction-796x417.png);
@@ -312,4 +320,13 @@ article .price a{
 }
 .menu p{
     line-height: 19px;
+}
+#sold_text{
+    transform: rotate(45deg);
+    position: absolute;
+    margin-left: -62px;
+    margin-top: 22px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
 }
