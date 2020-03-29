@@ -225,6 +225,7 @@ section svg{
 .tags a, .detail p, .detail a{
     font-size: 13px;
     color: #555;
+    margin-top: 15px;
 }
 .tags{
     margin-bottom: 22px;
@@ -235,4 +236,44 @@ section svg{
 }
 .detail{
     border-top: 1px solid rgba(255,68,34,.25);
+}
+.rows_apps{
+    display: grid;
+    grid-template-columns: 392px 392px 392px ;
+    padding-top: 86px;
+}
+.apps_1 article{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/slack-distraction-796x417.png);
+    /* background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat; */
+    background-size: 100% 100%;
+    background-size: cover;
+}
+.rows_apps article{
+    width: 368px;
+    height: 270px;
+}
+.rows_apps .disc a{
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+}
+.rows_apps .disc {
+    padding:0;
+}
+header h2 a{
+    font-size: 20px;
+    color: white;
+}
+article header{
+    padding: 14px;
+    bottom: -137px;
+    position: relative;
+}
+article .price{
+    height: 96px;
+    margin-top: 139px;
+}
+
+article .price img{
+    width: 96px;
+    float: right;
 }
