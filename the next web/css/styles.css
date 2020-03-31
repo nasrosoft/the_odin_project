@@ -31,7 +31,7 @@ li a{
 }
 .target_link{
     height: 30px;
-    background-color: yellow;
+    background-color: #fd3;
     font-size: 14px;
     color: black;
 }
@@ -403,4 +403,96 @@ article .price a{
 }
 .foo {
     display: flex;
+}
+/* media query (min-width: 1024px) */
+@media (max-width: 768px){
+    .up_nav{
+        display: none;
+    }
+    .clear li{
+        display: none;
+    }
+    .row{
+        grid-template-columns: 344px;
+        margin-left: 2%;
+    }
+    .row div{
+        height: 184px;
+    }
+    .box_1 img{
+        display: none;
+    }
+    time{
+        display: none;
+    }
+    .target_link{
+        height: 57px;
+        line-height: 60px;
+        font-size: 12px;
+    }
+    .box_1 h2 a, .box_2 h2 a, .box_3 h2 a {
+        font-size: 20px;
+    }
+    .target_link span {
+        margin-left: 6%;
+
+    }
+    .for_coll{
+        grid-template-columns: 294px;
+        padding-left: 10px;
+        padding-bottom: 3px;
+    }
+    section a{
+        display: flex;
+        width: 333px;
+    }
+    section h2{
+        padding-left: 10px;
+        height: 158px;
+
+    }
+    .for_coll img {
+        width: 75px;
+        height: 75px;
+        
+    }
+    .for_coll h4 {
+        height: 52px;
+        cursor: none;
+        font-size: 14px;
+        padding-left: 6px;
+    }
+    #auteur{
+        margin-left: 70px;
+        margin-top: -21px;  
+    }
+    .latest_news_1 span, .latest_news_2 span, .latest_news_3 span, .latest_news_4 span,
+    .latest_news_5 span, .latest_news_6 span, .latest_news_7 span, .latest_news_8 span {
+        position: absolute;  
+        margin-left: 143px;
+        margin-top: -15px;
+    }
+    .latest_news_1, .latest_news_2, .latest_news_3, .latest_news_4, .latest_news_5, 
+    .latest_news_6, .latest_news_7, .latest_news_8 {
+        padding-bottom: 26px;
+    }
+    .see_more {
+        display: flex;
+        flex-direction: column-reverse;
+        float: left;
+        padding-top: 13px;
+        width: 181px;
+    }
+    .break{
+        display: none;
+    }
+    .index_co {
+        display: grid;
+        grid-template-columns: 358px;
+        
+    }
+    .latest{
+        height: 57px;
+    }
+
 }
