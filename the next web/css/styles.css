@@ -483,12 +483,15 @@ article .price a{
     .latest_news_1 span, .latest_news_2 span, .latest_news_3 span, .latest_news_4 span,
     .latest_news_5 span, .latest_news_6 span, .latest_news_7 span, .latest_news_8 span {
         position: absolute;  
-        margin-left: 143px;
+        margin-left: 157px;
         margin-top: -15px;
     }
     .latest_news_1, .latest_news_2, .latest_news_3, .latest_news_4, .latest_news_5, 
     .latest_news_6, .latest_news_7, .latest_news_8 {
         padding-bottom: 26px;
+    }
+    section{
+        width: 100%;
     }
     .see_more {
         display: flex;
@@ -510,6 +513,7 @@ article .price a{
     }
     .rows_apps{
         padding-top: 0;
+        grid-template-columns: 392px;
     }
     .tags a, .detail a {
     margin-top: 0;
@@ -586,6 +590,16 @@ article .price a{
     .foo_header {
         height: 134px;
         padding-bottom: 0;
+    }
+    .foo_footer ul{
+        text-align: center;
+        padding-left: 0;
+    }
+    .copyright{
+        width: 34px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 }
