@@ -491,7 +491,7 @@ article .price a{
         padding-bottom: 26px;
     }
     section{
-        width: 100%;
+        width: 400px;
     }
     .see_more {
         display: flex;
@@ -513,7 +513,7 @@ article .price a{
     }
     .rows_apps{
         padding-top: 0;
-        grid-template-columns: 392px;
+        grid-template-columns: 363px;
     }
     .tags a, .detail a {
     margin-top: 0;
@@ -530,7 +530,7 @@ article .price a{
         margin-top: 0;
     }
     .rows_apps article {
-        width: 320px;
+        width: 367px;
         height: 240px;
         margin-left: 19px;
     }
@@ -600,6 +600,64 @@ article .price a{
         align-content: center;
         align-items: center;
         text-align: center;
+    }
+
+
+}
+
+/* @media ((max-width: 1023px) and (min-width: 768px)) */
+
+@media (max-width: 1023px) and (min-width: 768px){
+    html{
+        width: 176%;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 103%;
+    }
+    footer{
+        width: 103%;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 952px 519px;
+    }
+    header li a, .row li a {
+        font-size: 25px;
+        padding-left: 21px;
+        padding-top: 127px;
+    }
+    .clear a {
+        font-size: 25px;
+        color: #555555;
+        padding: 2px 35px 0 12px;
+    }
+    .clear ul{
+        height: 49px;
+        padding-top: 18px;
+    }
+    #_clear{
+        display: none;
+    }
+    .target_link {
+        display: flex;
+        align-items: center;
+        height: 68px;
+        font-size: 28px;
+    }
+    #target {
+
+        text-align: center;
+    }
+    .target_link span {
+        margin-left: 25%;
+    }
+    .for_coll {
+        display: grid;
+        grid-template-columns: 294px 294px 294px;
+        padding-bottom: 80px;
     }
 
 }
