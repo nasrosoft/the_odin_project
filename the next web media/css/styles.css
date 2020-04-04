@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /* Start Header */
@@ -16,6 +16,7 @@
     width: 100%;
     font-size: 15px;
     background-color: #000;
+    height: 32px;
 }
 nav{
     background-color: rgb(104, 112, 109);
@@ -47,10 +48,14 @@ nav{
 .up_nav a, .rigth_nav a{
     color: hsla(0,0%,100%,.6);
 }
+.up_nav a:hover, .rigth_nav a:hover{
+    color: hsla(0,0%,100%);
+}
 a{
     text-decoration: none;
 }
 .navigation{
+    height: 50px;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -96,36 +101,50 @@ a{
 
 
   /* media qeury */
-  @media (min-width: 640px) {
+  @media (max-width: 767px) {
     .container {
     max-width: 100%;
     }
+    .display-none{
+        display: none;
+    }
+    
+    
   }
   
   @media (min-width: 768px) {
     .container {
     max-width: 100%;
     }
+    .rigth_nav{
+        width: 29%;
+    }
+    
+
   }
   
   @media (min-width: 1024px) {
     .container {
         max-width: 100%;   
     }
+    .rigth_nav{
+        width: 22%;
+    }
+    
+    
   }
   
   @media (min-width: 1280px) {
     .container {
       max-width: 100%;
     }
-
+    .rigth_nav{
+        width: 18%;
+    }
+    
     .up_nav{
         height: 32px;
     }
-    .navigation{
-        height: 48px;
-    }
-
     .nav_bar{
         width: 100%;
     }
@@ -135,8 +154,10 @@ a{
         max-width: 1920px;
         margin: 0 auto;
       }
+     
 
   }
   .active{
     color: #fff !important;
+    
 }
