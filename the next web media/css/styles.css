@@ -11,29 +11,36 @@
 .nav_bar{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     font-size: 15px;
-    background-color: rgb(221, 219, 112);
+    background-color: #000;
 }
 nav{
-    background-color: rgb(51, 255, 160);
+    background-color: rgb(104, 112, 109);
 }
 .up_nav{
     display: flex;
     flex-direction: row;
-    width: 83%;
+
     list-style: none;
-    background-color: #131313;
+    
 }
 .rigth_nav{
     display: flex;
     flex-direction: row;
     width: 17%;
     list-style: none;
-    background-color: #131313;
+    
 }
-.up_nav li, .rigth_nav li{
+.up_nav li{
     padding-left: 15px;
+    text-decoration: none;
+    padding-top: 4px;
+    color: #fff;
+}
+.rigth_nav li{
+    padding-right: 15px;
     text-decoration: none;
     padding-top: 4px;
     color: #fff;
@@ -73,69 +80,56 @@ a{
 }
 /* End Header */
 
+.container {
+    width: 100%;
+    background-color: rgb(201, 21, 21);
+  }
+  
 
-/* Mobile & Tablet */
-@media (max-width: 767px){
 
-}
-/* Mobile & Tablet */
-@media (min-width: 768px){
 
-}
-/* Medium Screen */
-@media (min-width: 992px){
-    .rigth_nav{
-        display: flex;
-        flex-direction: row;
-        width: 22%;
-        list-style: none;
-        background-color: #131313;
-    }
-    .up_nav li, .rigth_nav li{
-        padding-left: 15px;
-        text-decoration: none;
-        padding-top: 4px;
-        color: #fff;
-    }
-    .nav_bar{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        font-size: 15px;
-        background-color: rgb(221, 219, 112);
-    }
-}
-/* Large Screen */
-@media (min-width: 1200px){
-    .nav_bar{
-        width: 83%;
 
+  /* media qeury */
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
     }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      
+    }
+
     .up_nav{
         height: 32px;
     }
     .navigation{
         height: 48px;
     }
-    .rigth_nav{
-        display: flex;
-        flex-direction: row;
-        width: 22%;
-        list-style: none;
-        background-color: #131313;
-    }
-    .up_nav li, .rigth_nav li{
-        padding-left: 15px;
-        text-decoration: none;
-        padding-top: 4px;
-        color: #fff;
-    }
+
     .nav_bar{
-        display: flex;
-        flex-direction: row;
         width: 100%;
-        font-size: 15px;
-        background-color: rgb(221, 219, 112);
     }
-    
-}
+  }
+  @media (min-width: 1920px){
+    .container {
+        max-width: 1920px;
+        margin: 0 auto;
+      }
+
+  }
+  
