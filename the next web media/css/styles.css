@@ -137,11 +137,14 @@ width: 61px;
   .cover-box{
       background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-26-796x417.jpg);
       background-size: cover;
-      margin: 3px 8px;
-      height: 94%;
+      margin: 5px 8px 0 0;
+      height: 96%;
+    }
+    article h2 {
+        font-size: 18px;
     }
     .active-box{    
-    height: 287px;
+    height: 518px;
     grid-row: 1/3;
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-26-796x417.jpg);
     background-size: cover;
@@ -170,6 +173,12 @@ width: 61px;
     .nav_bar,.navigation{
         display: none;
     }
+    .cover{
+        grid-template-columns: 70% 30%;
+    }
+    .active-box{
+        height: 411px;
+    }
 
     
     
@@ -189,9 +198,9 @@ width: 61px;
     .cover{
         grid-template-columns: 70% 30%;
     }
-    /* .cover-box{
-        height: 90%;
-    } */
+    .active-box{
+        height: 411px;
+    }
 
 
     
