@@ -140,7 +140,7 @@ width: 61px;
       height: 96%;
 }
 article h2 {
-        font-size: 18px;
+        font-size: font-size: 28px;;
 }
 .active-box{    
     position: relative;
@@ -221,7 +221,7 @@ time{
 .disc-left span, .disc-left span a{
     color: hsla(0,0%,100%,.6);
 }
-.disc-sm{
+.disc-sm, .disc-md{
     display: flex;
     justify-items: center;
     place-content: space-evenly;
@@ -257,6 +257,20 @@ time{
     .logo-active{
         display: none;
     }
+    .cover {
+        grid-template-columns: 100%;
+    }
+    .active-box, .cover-box,
+    .back-img, .back-img-box{
+        width: 100%;
+        height: 215px;
+    }
+    .auteur, .auteur-left {
+        margin-top: 21px;
+    }
+    .disc h2 a, .disc-left h2 a{
+        font-size: 26 !important;
+    }
 
     
     
@@ -285,12 +299,18 @@ time{
         height: 252px;
     }
     .auteur{
-        margin-top: 315px;
+         margin-top: 47%;
     }
     
     .disc-left{
-        margin-top: 144px;
-        width: 288px;
+        margin-top: 91px;
+        width: 280px;
+    }
+    .disc-sm {
+        width: 276px;
+    }
+    .disc-md {
+        width: 276px;
     }
     
 
@@ -306,7 +326,7 @@ time{
     .rigth_nav{
         width: 22%;
     }
-    .small-nav{
+    .small-nav, .display-md{
         display: none;
     }
     .nav_bar,.navigation{
@@ -315,7 +335,13 @@ time{
     .cover{
         grid-template-columns: 70% 30%;
     }
-    
+    .auteur{
+        margin-top: 315px;
+   }
+    .disc-left{
+        width: auto;
+        margin-top: 105px;
+    }
     
   }
   
@@ -339,6 +365,9 @@ time{
     .cover{
         grid-template-columns: 70% 30%;
     }
+    .display-md{
+        display: inline;
+    }
   }
   @media (min-width: 1920px){
     .container {
@@ -347,6 +376,9 @@ time{
       }
       .small-nav{
         display: none;
+    }
+    .back-img-box {
+        width: 568px;
     }
      
 
