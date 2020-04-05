@@ -153,6 +153,35 @@ width: 61px;
   article img, article svg{
       width: 40px;
   }
+  .logo-active img{
+    width: 360px;
+    padding: 20px;
+}
+.logo-active{
+    display: flex;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+time{
+    margin-left: auto;
+    padding: 9px;
+    color: #fff;
+}
+.disc{
+    margin-top: 293px;
+    position: absolute;
+    padding: 13px;
+    color: #c7c7c7fc;
+}
+.disc svg{
+    width: 16px;
+}
+.disc a,
+.disc span{
+    color: #fff;
+}
 
 
 
@@ -179,6 +208,9 @@ width: 61px;
     .active-box{
         height: 411px;
     }
+    .logo-active{
+        display: none;
+    }
 
     
     
@@ -201,6 +233,7 @@ width: 61px;
     .active-box{
         height: 411px;
     }
+    
 
 
     
