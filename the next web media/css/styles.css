@@ -227,7 +227,55 @@ time{
     place-content: space-evenly;
     width: 280px;
 }
-
+.latest{
+    height:57px;
+}
+section svg{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+section{
+    width: 1152px;
+    margin: auto;
+    margin-top: 56px;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 294px 294px 294px 294px ;
+    padding-bottom: 80px;
+}
+.articles img{
+    padding-bottom: 4px;
+    width: 270px;
+    height: 139px;
+    margin: 0;
+}
+.for_coll .sold{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -81px;
+    width: 81px;
+}
+.articles h4{
+    cursor: pointer;
+    width: 270px;
+    font-size: 16px;
+    color: black;
+}
+.articles h4:hover{
+    color: #ff4422;
+}
+.articles #auteur, .articles span{
+    font-size: 13px;
+    color: rgba(95, 95, 95, 0.6);
+}
+.articles  #auteur:hover{
+    color: black;
+}
+.latest-news{
+    padding-bottom: 26px;
+}
 
 
 
@@ -356,7 +404,7 @@ time{
         grid-template-columns: 70% 30%;
     }
     .auteur{
-        margin-top: 315px;
+        margin-top: 302px;
    }
     .disc-left{
         width: auto;
@@ -388,6 +436,11 @@ time{
     .display-md{
         display: inline;
     }
+    .auteur h2 {
+        font-size: 56px;
+    }
+
+
   }
   @media (min-width: 1920px){
     .container {
