@@ -3,14 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    /* background-color: #edededb8; */
-}
+
 
 /* Start Header */
 .container{
     width: 100%;
     
+}
+header{
+    height: 113px;
 }
 .nav_bar{
     display: flex;
@@ -22,6 +23,9 @@ body{
     height: 32px;
 }
 nav{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
     background-color: rgb(104, 112, 109);
 }
 .up_nav{
@@ -140,7 +144,7 @@ width: 61px;
       height: 96%;
 }
 article h2 {
-        font-size: font-size: 28px;;
+        font-size: 28px;
 }
 .active-box{    
     position: relative;
@@ -229,6 +233,10 @@ time{
 }
 .latest{
     height:57px;
+}
+.latest a{
+    color: #f42;
+    font-size: 28px;
 }
 section svg{
     width: 16px;
@@ -358,7 +366,7 @@ section{
         display: none;
     }
     .cover{
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 66% 33%;
     }
     .active-box, .back-img{
         height: 518px;
@@ -371,16 +379,32 @@ section{
     }
     
     .disc-left{
-        margin-top: 91px;
-        width: 280px;
+        margin-top: 110px;
+        width: 245px;
     }
     .disc-sm {
-        width: 276px;
+        width: 224px;
     }
     .disc-md {
         width: 276px;
     }
-    
+    .articles {
+        grid-template-columns: 247px 247px 247px;
+    }
+    article h2 {
+        font-size: 19px;
+    }
+    section {
+        width: 755px;
+        padding: 0 14px;
+    }
+    .articles img, .articles h4 {
+        padding-bottom: 6px;
+        width: 231px;
+    }
+    .back-img-box{
+        width: 31.9%;
+    }
 
 
     
@@ -408,8 +432,22 @@ section{
    }
     .disc-left{
         width: auto;
-        margin-top: 105px;
+        margin-top: 87px;
     }
+    .articles {
+        grid-template-columns: 255px 255px 255px 255px;
+    }
+    .articles img, .articles h4 {
+        padding-bottom: 6px;
+        width: 235px;
+    }
+    .latest {
+        width: 403px;
+    }
+    section {
+        width: 997px;
+    }
+
     
   }
   
@@ -439,6 +477,17 @@ section{
     .auteur h2 {
         font-size: 56px;
     }
+    .articles{
+        grid-template-columns: 294px 294px 294px 294px ;
+    }
+    .articles img, .articles h4 {
+        padding-bottom: 6px;
+        width: 270px;
+    }
+    section {
+        width: 1152px;
+    }
+    
 
 
   }
