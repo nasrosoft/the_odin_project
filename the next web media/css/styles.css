@@ -284,9 +284,86 @@ section{
 .latest-news{
     padding-bottom: 26px;
 }
+section .larger_title{
+    display: flex;
+    flex-direction: row;
+}
+section .larger_title a{
+    width: 391px;
+    color: #ff4422;
+}
+section .larger_title ul{
+    position: absolute;
+    padding-left: 0px;
+    right: 10%;
+}
+.larger_title{
+    margin-bottom: 24px;
+}
+.see_more{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 395px;
+}
+.see_more li, .see_more a  {
+    font-size: 14px;
+    color: #ff4422;
+    padding-left: 14px;
+    list-style: none;
 
-
-
+}
+.see_more li:hover, .see_more a:hover  {
+    color: black;
+}
+.index_co{
+    display: grid;
+    grid-template-columns: 294px 294px 294px 294px ;
+}
+.index_co img{
+    position: absolute;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.index{
+    padding: 12px;
+}
+.piece{
+    background-color: #ff4422;
+}
+.price{
+    background-color: rgba(255,68,34,.08);
+}
+.piece, .price {
+    padding-left: 97px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+.details{
+    padding: 16px;
+    color: #555555;
+}
+.tags a, .detail p, .detail a{
+    font-size: 13px;
+    color: #555;
+    margin-top: 15px;
+}
+.tags{
+    margin-bottom: 22px;
+}
+.tags a:hover, .detail p:hover, .detail a:hover{
+    font-size: 13px;
+    color: #000;
+}
+.detail{
+    border-top: 1px solid rgba(255,68,34,.25);
+}
+.price h4, .price h5{
+    color: #000;
+}
 
   /* media qeury */
   @media (max-width: 767px) {
@@ -382,7 +459,7 @@ section{
         left: 84px;
     }
     section{
-        width: 488px;
+        width: 483px;
     }
     
     
@@ -471,7 +548,7 @@ section{
         margin-top: 87px;
     }
     .articles {
-        grid-template-columns: 255px 255px 255px 255px;
+        grid-template-columns: 246px 246px 246px 246px;
     }
     .articles img, .articles h4 {
         padding-bottom: 6px;
@@ -481,7 +558,7 @@ section{
         width: 403px;
     }
     section {
-        width: 997px;
+        width: 100%;
     }
     .back-img-box{
         width: 29.4%;
