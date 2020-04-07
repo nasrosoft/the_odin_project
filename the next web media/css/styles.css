@@ -364,6 +364,140 @@ section .larger_title ul{
 .price h4, .price h5{
     color: #000;
 }
+.rows_apps{
+    display: grid;
+    grid-template-columns: 392px 392px 392px ;
+    padding-top: 86px;
+    margin-bottom: 40px;
+}
+.apps article{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgba(0,0,0,.25) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+    height: 100%;
+}
+.apps h2{
+    padding: 20px 0;
+}
+.rows_apps article{
+    width: 368px;
+    height: 270px;
+}
+.rows_apps .disc a{
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+}
+.rows_apps .disc {
+    padding:0;
+}
+.apps .detail{
+    border-bottom: 1px solid#eee;
+    border-top: none;
+    font-size: 13px;
+    color: #555;
+}
+
+.disc{
+    margin-top: -6px;
+    align-items: center;
+    display: flex;
+}
+.disc li{
+    display: flex;
+    margin-left: 14px;
+    font-size: 12px;
+    color: hsla(0,0%,100%,.6);
+}
+header h2 a{
+    font-size: 20px;
+    color: white;
+}
+article header{
+    padding: 14px;
+    bottom: -137px;
+    position: relative;
+}
+article .price img{
+    width: 96px;
+    float: right;
+}
+article .price h4{
+    font-size: 13px;
+    color: #ff4422;
+    font-weight: 500;
+}
+article .price a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff4422;
+    opacity: 1;
+    padding:0;
+}
+article .price {
+    margin-top: 161px;
+    padding-left: 8px;
+}
+.menu{
+    padding: 0;
+    margin-top: 93px;
+    width: 368px;
+    list-style-type: circle;
+    list-style: circle;
+    padding-bottom: 22px;
+}
+.menu p::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+.menu p{
+    line-height: 19px;
+}
+.price h5{
+    margin: 0;
+    color: #000;
+    opacity: .5;
+}
+.price h4{
+    color: black;
+}
+.menu li{
+    list-style: none;
+}
+.back-img-App{
+    position: absolute;
+    width: 369px;
+    height: 270px;
+}
+.red-title{
+    color: #f42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* media qeury */
   @media (max-width: 767px) {
