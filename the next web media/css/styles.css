@@ -296,6 +296,7 @@ section .larger_title ul{
     position: absolute;
     padding-left: 0px;
     right: 10%;
+    margin-left: 270px;
 }
 .larger_title{
     margin-bottom: 24px;
@@ -477,6 +478,63 @@ article .price {
 .red-title{
     color: #f42;
 }
+section .larger_title{
+    display: flex;
+    flex-direction: column;
+}
+section .larger_title a{
+    width: 338px;
+}
+section .larger_title ul{
+    padding-left: 0px;
+}
+.for_coll{
+    display: grid;
+    grid-template-columns: 294px 294px 294px 294px ;
+    padding-bottom: 80px;
+}
+.latest_news{
+    padding-bottom: 26px;
+}
+.for_coll img{
+    padding-bottom: 4px;
+    width: 270px;
+    height: 139px;
+    margin: 0;
+}
+.for_coll .sold{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -81px;
+    width: 81px;
+}
+.for_coll h4{
+    cursor: pointer;
+    width: 270px;
+    font-size: 16px;
+    color: black;
+}
+.for_coll h4:hover{
+    color: #ff4422;
+}
+.for_coll #auteur, .for_coll span{
+    font-size: 13px;
+    color: rgba(95, 95, 95, 0.6);
+}
+.for_coll  #auteur:hover{
+    color: black;
+}
+.rela-sold{
+    position: relative;
+}
+.sold_svg{
+    position: absolute;
+    left: 181px;
+    width: 89px !important;
+    bottom: 27px;
+}
+
+
 
 
 
