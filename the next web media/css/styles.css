@@ -791,6 +791,14 @@ section .larger_title ul{
     .foo_footer ul{
         width: 65%;
     }
+    section .larger_title ul {
+        right: 21%;
+        margin-left: 270px;
+        padding-top: 68px;
+    }
+    .larger_title {
+        margin-bottom: 73px;
+    }
     
     
   }
@@ -895,6 +903,11 @@ section .larger_title ul{
         position: inherit;
         margin-left: 0;
         margin-top: 17px;
+    }
+    section .larger_title ul {
+        position: inherit;
+        margin-left: 45%;
+        margin-top: -35px;
     }
 
   }
