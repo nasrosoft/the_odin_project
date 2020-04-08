@@ -758,6 +758,21 @@ section .larger_title ul{
     .back-img-App {
         width: 47%;
     }
+    .for_coll {
+        grid-template-columns: 33% 33% 33% ;
+    }
+    .for_coll img{
+        width: 257px;
+        height: 192px;
+    }
+    .for_coll h4 {
+        width: 298px;
+    }
+    .sold_svg {
+        left: 168px !important;
+        bottom: 54px;
+    }
+    
 
   }
   
@@ -828,6 +843,15 @@ section .larger_title ul{
     .rows_apps {
         grid-template-columns: 33% 33% 33%;
     }
+    .for_coll {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .for_coll img, .for_coll h4 {
+        width: 235px;
+    }
+    .sold_svg {
+        left: 146px !important;
+    }
 
   }
   
@@ -858,7 +882,7 @@ section .larger_title ul{
         font-size: 56px;
     }
     .articles{
-        grid-template-columns: 294px 294px 294px 294px ;
+        grid-template-columns: 293px 293px 293px 293px;
     }
     .articles img, .articles h4 {
         padding-bottom: 6px;
@@ -877,6 +901,20 @@ section .larger_title ul{
     }
     .rows_apps {
         grid-template-columns: 35% 35% 35%;
+    }
+    .for_coll {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .for_coll img{
+        width: 262px;
+        height: 200px;
+    }
+    .for_coll h4 {
+        width: 262px;
+    }
+    .sold_svg {
+        left: 173px !important;
+        bottom: 58px;
     }
     
 
