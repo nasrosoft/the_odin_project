@@ -533,8 +533,84 @@ section .larger_title ul{
     width: 89px !important;
     bottom: 27px;
 }
+.foo_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: #131313;
+}
+.foo_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97px;
+    background-color: #000000;
+    color: white;
+    font-size: 13px;
+}
+.foo_header .foo a{
+    width: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    height: 40px;
+    margin-bottom: 44px;
+}
+.foo_header .foo a:hover{
+    background-color: #000;
 
+}
 
+.foo_footer #logo{
+    width: 38px;
+    margin: 0;
+}
+.foo_footer #sponsoring{
+    width: 57px;
+    margin: 0;
+}
+.foo_footer ul{
+    display: flex;
+    list-style: none;
+    margin-top: auto;
+    margin-block-end: auto;
+}
+.foo_header ul li{
+
+    margin-left: 34px;
+    margin-top: auto;
+
+}
+.foo_header ul li svg{
+
+    width: 40px;
+    height: 22px;
+    color: hsla(0,0%,100%,.6);
+    align-items: center;
+    margin-top: 9px;
+
+}
+.foo li{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+
+}
+.foo {
+    display: flex;
+}
+.foo_2{
+    display: flex;
+    list-style: none;
+}
+.foo_2 a, .copyright{
+    color: #555;
+}
+.foo_2 a:hover{
+    color: #fff;
+}
 
 
 
