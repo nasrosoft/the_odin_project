@@ -1,9 +1,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #f4f5f6;
 }
 .container{
     max-width: 1310px;
+    height: 1400px;
+    background-color: #fff;
+    padding: 0;
 }
 .meteo{
     width: 24px;
@@ -15,19 +19,31 @@ body{
     font-size: 18px;
 }
 .nav-item{
-    padding: 0 8px;
+    padding: 0 5px;
     font-size: 19px;
     font-weight: bold;
-    height: 56px;
+    height: 23px;
    border-left:  1px solid #d9d9d9;
 }
-.nav-item:first-child{
+.child{
 
    border-left: 0;
 }
 .nav-item a{
     color: #000 !important;
+    padding: 0;
 }
 .nav-item a:hover{
     color: #f72210 !important;
+}
+.red-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 78px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
 }
