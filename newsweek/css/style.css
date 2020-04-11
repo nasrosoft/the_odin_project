@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1310px;
+}
+.meteo{
+    width: 24px;
+}
+#signin{
+    background-color: #fff;
+    color: #f72210;
+    border: solid;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 0 8px;
+    font-size: 19px;
+    font-weight: bold;
+    height: 56px;
+   border-left:  1px solid #d9d9d9;
+}
+.nav-item:first-child{
+
+   border-left: 0;
+}
+.nav-item a{
+    color: #000 !important;
+}
+.nav-item a:hover{
+    color: #f72210 !important;
+}
