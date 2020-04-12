@@ -213,3 +213,43 @@ p{
     justify-content: center;
     align-items: center;
 }
+.logo-n{
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+.center-larger-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 27px;
+    border-bottom: 1px solid #ededed;
+    width: 94%;
+    margin: auto;
+    padding-bottom: 11px;
+}
+.post{
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
+}
+.issue{
+    position: absolute;
+    top: 331px;
+    left: 8px;
+    background-color: #ededed;
+    width: 142px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.issue span{
+    color: #f72210;
+}
