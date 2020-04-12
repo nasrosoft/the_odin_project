@@ -5,9 +5,12 @@ body{
 }
 .container{
     max-width: 1310px;
-    height: 1400px;
+    height: 100%;
     background-color: #fff;
     padding: 0;
+}
+ul{
+    list-style: none;
 }
 .meteo{
     width: 24px;
@@ -46,4 +49,115 @@ body{
     background-color: #f72210;
     border-left: 12px solid white;
     border-top: 13px solid #f72210;
+}
+.title {
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,.4);
+}
+.opinion{
+    padding-left: 53px;
+}
+
+.opinion li{
+    position: relative;
+    width: 298px;
+    margin-left: -39px;
+    padding-bottom: 4px;
+    border-top: 1px solid #ededed;
+    padding-top: 10px;
+}
+.opinion li:first-child{
+    border-top: 0;
+}
+.rounded-circle{
+    position: absolute;
+    margin-left: -15px;
+    max-width: 63px;
+}
+.larger-title a{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #000;
+}
+.larger-title a:hover{
+    text-decoration: none;
+    color: #f72210;
+}
+.larger-title{
+    margin-left: 57px;
+}
+.larger-title div{
+    margin-top: 4px;
+    font-size: 14px;
+}
+.x-larger-title{
+    padding-top: 9px;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 27px;
+    
+}
+.x-larger-title a{
+    color: #000;
+}
+.x-larger-title a:hover{
+    text-decoration-color: #f72210;
+    text-decoration-line: 1px;
+}
+p{
+    padding-top: 7px; 
+    font-size: 15px
+}
+.category{
+    position: relative;
+    width: 71px;
+    height: 32px;
+    font-size: 17px;
+    font-weight: bold;
+    top: -32px;
+    left: 0px;
+    background-color: rgba(255,255,255,.9);
+}
+.category-active{
+    position: relative;
+    width: 115px;
+    height: 24px;
+    font-size: 17px;
+    font-weight: bold;
+    top: -24px;
+    left: 0px;
+    background-color: #C2D4D7;
+}
+.category-active a{
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 4px;
+    color: #272727;
+    
+}
+.category-active:hover{
+    background-color: #272727;
+}
+.category-active a:hover{
+    color: #C2D4D7;
+    text-decoration: none;
+    
+}
+.category a{
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    color: #f72210;
+}
+.mdl-title{
+    font-size: 20px;
+    color: #272727;
+    margin-top: -13px;
+}
+.mdl-p{
+    font-size: 15px;
+    color: rgba(39,39,39,.5);
+    margin-bottom: 10px;
 }
