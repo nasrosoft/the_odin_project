@@ -287,3 +287,82 @@ p{
     padding: 6px;
 
 }
+.subscribe{
+    position: relative;
+    padding-top: 28px;
+    padding-left: 20px;
+    display: flex;
+    width: 820px;
+    height: 301px;
+    margin-left: auto;
+    background-color: #f4f5f6;
+}
+.membership{
+    width: 803px;
+    height: 301px;
+    padding-left: 78px;
+    padding-top: 67px;
+}
+#SUBSCRIBE{
+    border-radius: 0;
+    background-color: #f72210;
+}
+.signup{
+    display: flex;
+    
+    padding-right: 20px;
+}
+.sign{
+    width: 260px;
+    height: 301px;
+    padding: 30px;
+}
+.social{
+    width: 232px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: auto;
+    margin-right: 0;
+    padding: 0;
+}
+.social i{
+    width: 40px;
+    height: 40px;
+    align-content: space-between;
+}
+.social li {
+    padding-top: 35px;
+}
+.footer-logos{
+    width: 100%;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 14px 26px;
+    border-bottom: 1px solid #ededed;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+.menu a:hover{
+
+    color: #000;
+
+}
+.menu li{
+    white-space: nowrap;
+    padding:4px 14px;
+}
+.lable{
+    border-left: 1px solid #ededed;
+    height: 23px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
