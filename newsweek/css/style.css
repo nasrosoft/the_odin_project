@@ -93,7 +93,8 @@ ul{
     font-size: 14px;
 }
 .x-larger-title{
-    padding-top: 9px;
+    padding-top: 0;
+    margin-top: -18px;
     font-size: 23px;
     font-weight: bold;
     line-height: 27px;
@@ -138,7 +139,7 @@ p{
 }
 .category{
     position: relative;
-    width: 71px;
+    width: 99px;
     height: 32px;
     font-size: 17px;
     font-weight: bold;
@@ -235,8 +236,7 @@ p{
 }
 .post{
     position: relative;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 10px;
     margin: auto;
 }
 .issue{
@@ -252,4 +252,38 @@ p{
 }
 .issue span{
     color: #f72210;
+}
+.see-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    padding: 10px;
+    background-color: #f4f5f6;
+}
+.see-all:hover{
+    background-color: rgba(102, 102, 102, 0.24);
+}
+.see-all a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.culture{
+    padding-top: 8px;
+}
+.culture a{
+    color: #f72210;
+    font-size:16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.downtime{
+    background-color: #f72210;
+    color: #fff;
+    font-size:16px;
+    font-weight: bold;
+    padding: 6px;
+
 }
