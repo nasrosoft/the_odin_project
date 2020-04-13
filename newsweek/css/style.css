@@ -56,12 +56,12 @@ ul{
     color: rgba(3,3,3,.4);
 }
 .opinion{
-    padding-left: 53px;
+    padding-left: 46px;
 }
 
 .opinion li{
     position: relative;
-    width: 298px;
+    width: 249px;
     margin-left: -39px;
     padding-bottom: 4px;
     border-top: 1px solid #ededed;
@@ -115,13 +115,12 @@ ul{
     
 }
 .r-larger-title{
-    width: 227px;
+    
     padding-top: 0px !important;
     font-size: 17px;
     font-weight: bold;
-    line-height: 27px;
+    line-height: 18px;
     margin-left: -6px;
-    
 }
 .r-larger-title a{
     color: #000;
