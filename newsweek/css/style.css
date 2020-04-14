@@ -365,3 +365,143 @@ p{
     margin-top: auto;
     margin-bottom: auto;
 }
+.row{
+    margin: 15px 7px;
+}
+
+/* 
+media 
+*/
+@media (max-width: 576px) {
+    .container nav{
+        height: 50px !important;
+    }
+    img.rounded.mx-auto.d-block{
+        width: 132px ;
+        height: 20px;
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .register{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -31px;
+        height: 41px;
+    }
+    #FEATURED{
+        padding: 0 17px !important;
+    }
+    .col-lg-6,.col-lg-3{
+        padding: 0;
+    }
+    .subscribe {
+        display: flex;
+        width: 453px;
+        height: 476px;
+        flex-direction: column;
+        padding: 24px;
+
+    }
+    .subscribe img{
+        margin-left: 25%;
+    }
+    .membership {
+        width: 448px;
+        height: 165px;
+        padding-top: 39px;
+        margin-left: -14%;
+        text-align: center;
+    }
+    .opinion li {
+        width: 448px;
+    }
+    .post img{
+        width: 100% !important;
+    }
+    .footer-logos {
+        width: 53%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 13px;
+        padding-left: 22px;
+    }
+
+    .social li {
+        padding-top: 0;
+    }
+    #newsletter{
+        padding: 24px;
+    }
+}
+@media (min-width: 576px) {
+    .container nav{
+        height: 50px !important;
+    }
+    img.rounded.mx-auto.d-block{
+        width: 132px ;
+        height: 20px;
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .register{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -31px;
+        height: 41px;
+    }
+    .opinion li {
+        width: 100%;
+        padding: 19px;
+    }
+    .see-all {
+        text-align: center;
+        height: 57px;
+
+    }
+    .x-larger-title {
+    width: 100%
+    }
+    #newsletter{
+        padding: 24px;
+    }
+    .subscribe {
+        width: 100%;
+        padding-top: 1px;
+
+    }
+    .membership {
+        padding-left: 44px;
+
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container nav{
+        height: 95px !important;
+    }
+    img.rounded.mx-auto.d-block{
+        width: 426px ;
+        height: 90px;
+        margin-left: auto !important;
+    }
+    .register{
+        margin-top: auto;
+        height: 41px;
+        width: 239px;
+        width: 405px;
+        margin-left: -174px;
+    }
+    
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
