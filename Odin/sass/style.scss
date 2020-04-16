@@ -1,0 +1,167 @@
+$mainFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mainBackgroundColor: #ededed;
+$mainSuccessColor: #ce973e;
+$mainPrimaryColor: #4a4a4a;
+$mainSecondaryColor: rgba(74,74,74,0.7);
+$maxWidth: 100%;
+$gridnum: 14;
+
+
+@for $i from 1 through $gridnum {
+    .col-#{$i}{
+        width: (100% / ($gridnum / $i));
+    }
+}
+
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "Norse";
+    font-weight: regular;
+    src: url("font/norse.regular.otf") format("opentype");
+}
+  @font-face {
+    font-family: "Norse";
+    font-weight: bold;
+    src: url("font/norse.bold.otf") format("opentype");
+}
+  
+  html {
+    font-family: $mainFontFamily;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  body{
+      background-color: #fff;
+  }
+  .container {
+    width: $maxWidth;
+    // padding-right: 15px;
+    // padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row {
+    width: $maxWidth;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  p{
+    font-size: 1.125rem;
+    letter-spacing: 0.2px;
+    line-height: 1.88;
+  }
+  .nav{
+      display: flex;
+        h3{
+            font-family: Norse;
+            font-weight: bold;
+            font-size: 32px;
+            color: $mainSuccessColor;
+            padding-left: 14px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            align-items: center;
+            margin: 0 0 0 auto;
+            li{
+                padding: 0 8px;
+                a{
+                    font-size: 1em;
+                    font-weight: bold;
+                    color: $mainSecondaryColor;
+                    text-decoration: none;
+                    &:hover{
+                        font-size: 1em;
+                        font-weight: bold;
+                        color: $mainPrimaryColor;
+                    }
+                }
+            }
+            
+        }
+      
+    }
+    .introduction{
+        display: flex;
+        text-align: center;
+        padding-top: 72px;
+        .intro{
+            font-size: 36px;
+            font-weight: 200;
+            color: $mainSuccessColor;
+        }
+        p{  
+            font-size: 18px;
+            font-weight: 500;
+            color: $mainSecondaryColor;
+        }
+        .view{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            width: 280px;
+            height: 56px;
+            background-color:#6abfc3;
+            border: none;
+            border-radius: 3%;
+            margin: 0 auto;
+            p{
+                margin: auto 0;
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+    }
+    
+  
+  
+// Start media query 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){
+    .container {
+        max-width: 100%;
+      }
+    .row {
+        max-width: 540px;
+        margin: 0 auto;
+      }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px){
+    .container {
+        max-width: 100%;
+      }
+    .row {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+}
+// large devices (desktops, 992px and up)
+@media (min-width: 992px){
+    .container {
+        max-width: 100%;
+      }
+    .row {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px){
+    .container {
+        max-width: 100%;
+      }
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+}
