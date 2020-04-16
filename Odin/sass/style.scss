@@ -1,5 +1,6 @@
 $mainFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mainBackgroundColor: #ededed;
+$mainSecondaryBackground: #f3f3f3;
 $mainSuccessColor: #ce973e;
 $mainPrimaryColor: #4a4a4a;
 $mainSecondaryColor: rgba(74,74,74,0.7);
@@ -51,11 +52,25 @@ $gridnum: 14;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    // custom 
+    text-align: center;
   }
-  p{
+
+  %paragraph{
     font-size: 1.125rem;
     letter-spacing: 0.2px;
     line-height: 1.88;
+    font-weight: 500;
+    color: $mainSecondaryColor;
+
+  }
+  %bold{
+    font-size: 1.5rem ;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+  ul{
+    list-style: none;
   }
   .nav{
       display: flex;
@@ -69,7 +84,6 @@ $gridnum: 14;
         ul{
             display: flex;
             flex-direction: row;
-            list-style: none;
             align-items: center;
             margin: 0 0 0 auto;
             li{
@@ -98,11 +112,10 @@ $gridnum: 14;
             font-size: 36px;
             font-weight: 200;
             color: $mainSuccessColor;
+            padding-top: 2em;
         }
         p{  
-            font-size: 18px;
-            font-weight: 500;
-            color: $mainSecondaryColor;
+            @extend %paragraph
         }
         .view{
             display: flex;
@@ -112,15 +125,131 @@ $gridnum: 14;
             height: 56px;
             background-color:#6abfc3;
             border: none;
-            border-radius: 3%;
-            margin: 0 auto;
-            p{
-                margin: auto 0;
-                color: #fff;
-                font-weight: 700;
+            border-radius: .2em;
+            box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+            margin: 69px auto;
+            &:hover{
+                background-color: #7ecbcf ;
+            }
+            a{
+              text-decoration: none;
+            }
+            h4{  
+              color: #fff;
             }
         }
     }
+    .works{
+        width: 41%;
+        padding: 5em 0;
+        h2{
+          @extend %bold;
+        }
+        p{
+          @extend %paragraph;
+        }
+    }
+    .details{
+      h5{
+        @extend %bold;
+      }
+      p{
+        @extend %paragraph;
+      }
+    }
+    .Learn{
+      padding: 2em 0;
+      .col-4 div, .col-7 div{
+        box-shadow: 0 7px 16px 0 rgba(0,0,0,0.05);
+        background-color: #fff;
+        padding: 2em;
+        margin: 29px 25px 37px 25px;
+      }
+      img{
+        width: 160px;
+      } 
+    }
+  .backgColor{
+    background-color: $mainSecondaryBackground ;
+  }
+  .gradient{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #fff, #eee);
+    h2{
+      padding: 2em 0;
+    }
+    .row .col-7{
+      display: flex;
+      flex-direction: row;
+      img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-top: 1.5em;
+      }
+      .stories{
+        text-align: initial;
+        padding: 0 1em;
+        a{
+          text-decoration: none;
+        }
+        h4{
+          font-size: 18px;
+          color: $mainSuccessColor;
+          
+        }
+        p{
+          @extend %paragraph;
+        }
+      }
+
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  footer{
+    padding: 6em 0;
+    h3{
+      padding-left: 1em;
+      padding-top: .5em;
+    }
+    .col-4 {
+      display: flex;
+      flex-direction: row;
+      .right, .left{
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: auto;
+        
+        li{
+          
+          padding-bottom: .5em;
+          text-align: left;
+          
+           a{
+            font-size: 16px;
+            color: rgba(74,74,74,0.7);
+            font-weight: bold;
+            &:hover{
+              color: $mainPrimaryColor;
+            }
+          }
+        }
+      }
+    }
+    .col-5 a, .link ul{
+      color: $mainSuccessColor;
+      display: flex;
+      flex-direction: row;
+      li{
+        padding: 0 2em;
+        i{
+          color: $mainSuccessColor;
+        }
+      }
+    }
+  }
     
   
   
