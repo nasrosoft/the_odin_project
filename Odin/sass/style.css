@@ -337,6 +337,115 @@ footer .col-5 a li i, footer .link ul li i {
   color: #ce973e;
 }
 
+.bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 44%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bars i {
+  color: #6abfc3;
+  margin: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 137px;
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+  .row {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .nav {
+    height: 64px;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav h3 {
+    font-size: 21px;
+  }
+  .works {
+    width: 84%;
+  }
+  .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80% !important;
+  }
+  .details .col-4 {
+    width: 100%;
+  }
+  .Learn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80% !important;
+  }
+  .Learn .col-4 {
+    width: 100%;
+  }
+  .gradient {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+  }
+  .gradient .col-7 {
+    width: 100%;
+    padding-left: 1em;
+  }
+  footer .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .row .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100% !important;
+    padding: 0 17%;
+    padding-top: 36px;
+  }
+  footer .row .menu .right, footer .row .menu .left {
+    margin: 0 4px;
+  }
+  .footerLogos {
+    display: none;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 100%;
@@ -344,6 +453,85 @@ footer .col-5 a li i, footer .link ul li i {
   .row {
     max-width: 540px;
     margin: 0 auto;
+  }
+  .nav {
+    height: 64px;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav h3 {
+    font-size: 21px;
+  }
+  .works {
+    width: 84%;
+  }
+  .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80% !important;
+  }
+  .details .col-4 {
+    width: 100%;
+  }
+  .Learn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80% !important;
+  }
+  .Learn .col-4 {
+    width: 100%;
+  }
+  .gradient {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+  }
+  .gradient .col-7 {
+    width: 100%;
+    padding-left: 1em;
+  }
+  footer .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .row .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100% !important;
+    padding: 0 17%;
+    padding-top: 36px;
+  }
+  footer .row .menu .right, footer .row .menu .left {
+    margin: 0 4px;
+  }
+  .footerLogos {
+    display: none;
   }
 }
 
@@ -355,6 +543,68 @@ footer .col-5 a li i, footer .link ul li i {
     max-width: 720px;
     margin: 0 auto;
   }
+  .nav {
+    height: 64px;
+  }
+  .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    white-space: pre;
+  }
+  .bars {
+    display: none;
+  }
+  .works {
+    width: 84%;
+  }
+  .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .details .col-4 {
+    width: 28.57143%;
+  }
+  .Learn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 49.57143%;
+  }
+  .Learn .col-1 {
+    display: none;
+  }
+  .Learn .col-4 {
+    width: 49.57143%;
+  }
+  .gradient {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+  }
+  .gradient .col-7 {
+    width: 100%;
+    padding-left: 1em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -364,6 +614,45 @@ footer .col-5 a li i, footer .link ul li i {
   .row {
     max-width: 960px;
     margin: 0 auto;
+  }
+  .Learn, .col-4 {
+    width: 28.57143%;
+  }
+  .gradient .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100% !important;
+  }
+  .gradient .row .col-7 {
+    width: 50%;
+    padding-left: 0;
+  }
+  footer .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .row .col-4 {
+    width: 28.57143% !important;
+    padding: 0;
+    padding-left: 3em;
+  }
+  footer .row .col-4 .right, footer .row .col-4 .left {
+    margin: 0 4px;
+  }
+  .footerLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
