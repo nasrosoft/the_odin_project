@@ -1,0 +1,61 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #f4f5f6;
+    color: #111111;
+}
+.container{
+    width: 1000px;
+
+    margin: 90px auto;
+}
+ul{ 
+    padding: 0;
+    list-style: none;
+    background-color: #f4f5f6;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #fff;
+    
+    box-shadow: 1px 3px #ededed;
+}
+.head h4{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+h4{
+    font-weight: 100;
+    font-size: 16px;
+}
+span{
+    align-self: center;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+input{
+    height: 39px;
+    align-self: center;
+    padding-left: 8px;
+    width: 247px;
+    margin: 0 16px;
+}
+button{
+    width: 45px;
+    height: 45px;
+}
