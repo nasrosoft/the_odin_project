@@ -21,7 +21,7 @@
                     <input type="number" placeholder="01" min="0" style="width: 45px; text-align: center;" id="pages">
                     <input type="checkbox" style="width: 16px;margin-right: 6px;" id="readIt">
                     <span style="width: 44px;padding: 0;margin-left: 0;">Read it </span>
-                    <span><button type="submit" id="save" onclick="getSave();"><i class="fas fa-plus" id="plus"></i></button></span>
+                    <span><button type="submit" id="save" ><i class="fas fa-plus" id="plus"></i></button></span>
                     <span><button type="reset"><i class="fas fa-minus" id="reset" onclick="reset();"></i></button></span>
                     
                 </form>
@@ -30,16 +30,16 @@
             <li class="head">
                 <h4>Titles</h4>
                 <h4>Autheurs</h4>
-                <h4>Pages</h4>
-                <h4>Read our Not</h4>
-                <h4>Delete</h4>
+                <h4 style="color: blue;">Pages</h4>
+                <h4 style="color: brown;">Read our Not</h4>
+                <h4 style="color: red;">Delete</h4>
             </li>
             <li>
                 <h4 id="bookTitle">The hobbit</h4>
                 <h4 id="bookAuteur">J.R.R. Tolkien</h4>
-                <h4 id="bookPages">295</h4>
+                <h4 id="bookPages" style="color: blue;">295</h4>
                 <span><i class="far fa-eye fa-lg" style="color: brown;"></i></span>
-                <span><i class="fas fa-trash-alt fa-lg" style="color: red;"></i></span>
+                <span><button type="button" id="delete"><i class="fas fa-trash-alt fa-lg" style="color: red;"></i></button></span>
                 
             </li>
         </ul>
