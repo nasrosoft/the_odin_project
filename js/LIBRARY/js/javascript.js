@@ -3,6 +3,7 @@
 
  let 
     save = document.querySelector('button'),
+    // reset = document.getElementById('reset'),
     bookTitle = document.getElementById('bookTitle'),
     bookAuteur = document.getElementById('bookAuteur'),
     bookPages = document.getElementById('bookPages');
@@ -35,5 +36,12 @@
             newBook.appendChild(newDelete).outerHTML = '<i class="fas fa-trash-alt fa-lg" style="color: red; align-self: center; padding: 0 10px; margin: 10px;"></i>'
                 // console.log(readIt.checked); align-self: center; padding: 0 10px; margin: 10px;
         }
-
-// console.log(bookBody);
+    // function reset(){
+         
+    //          document.getElementById('title').reset(),
+    //          document.getElementById('auteur').reset(),
+    //          document.getElementById('pages').reset();
+        
+    // }
+// let titlerr     =  document.getElementById('title').innerHTML;
+console.log(document.getElementById('title').value);
