@@ -3,20 +3,34 @@
 *{
     box-sizing: border-box;
 }
+html{
+    background-image: url(../img/undraw_Bibliophile_hwqc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 body{
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f5f6;
+    /* background-color: #f4f5f6; */
     color: #111111;
+    
 }
 .container{
     width: 1000px;
 
     margin: 90px auto;
 }
+.header{
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 17px;
+}
 ul{ 
     padding: 0;
     list-style: none;
-    background-color: #f4f5f6;
+    /* background-color: #f4f5f6; */
 }
 form{
     display: flex;
