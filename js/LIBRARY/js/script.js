@@ -1,16 +1,10 @@
-  let 
-    myLibrary = [],
-    save = document.getElementById('plus'),
-    main = document.getElementById('table'),
-    newPost   = document.createElement('li'),
-    newTitle  = document.createElement('h4'),
-    newAuteur = document.createElement('h4'),
-    newPages  = document.createElement('h4'),
-    newEye    = document.createElement('span'),
-    newDelete = document.createElement('span');
+let 
+  myLibrary = [],
+  deleteBtn = [],
+  save = document.getElementById('plus');
+
+save.onclick = render;
     
-
-
   function Book(title,auteur,pages) {
       //
 
@@ -34,35 +28,63 @@
   }
 
   
+  
+  function addHtmlTag(){
+    let
+      main = document.getElementById('table'),
+      newPost   = document.createElement('li'),
+      newTitle  = document.createElement('h4'),
+      newAuteur = document.createElement('h4'),
+      newPages  = document.createElement('h4'),
+      newEye    = document.createElement('span'),
+      newDelete = document.createElement('span');
+    
+    myLibrary.forEach(element => {
+      
+       newPost.appendChild(newTitle).innerHTML = element.title;
+       newPost.appendChild(newAuteur).innerHTML= element.auteur;
+       newPost.appendChild(newPages).innerHTML =  `<span class="page">${element.pages}</span>`;
+      
+       
 
-   function render(){
+    }); 
+    main.appendChild(newPost);
+    if (readIt.checked) { 
+      newPost.appendChild(newEye).outerHTML = '<i class="far fa-eye fa-lg" style="color: brown;align-self: center; padding: 0 10px; margin: 10px;"></i>';
+  } else {
+    newPost.appendChild(newEye).outerHTML = '<i class="far fa-eye-slash" style="color: #ededed; align-self: center; padding: 0 10px; margin: 10px;"></i>';
+  }
+  newPost.appendChild(newDelete).outerHTML = '<span><button type="button" id="delete"><i class="fas fa-trash-alt fa-lg" style="color: red; align-self: center; padding: 0 10px; margin: -6px;"></i></button></span>';
+  // trashAdd = document.getElementsByName('delete');
+  trashs = document.getElementById('delete');
+  // for(i= 0; i < trashs.length;i++){
+  //   deleteBtn.push(trashs[i]);
+  //   console.log(deleteBtn[i]);
+  //  }
+  // for(i=0; i < deleteBtn.length; i++){
+  //         deleteBtn.onclick = function (){
+  //           rem = this[i].parentElement.parentElement;
+  //           rem.remove(rem); 
+  //       }
+  // }
 
-        addbookToLibrary();
-        
-        
-        addHtmlTag();
+   }
+  
+  
+     function render(){
+  
+          addbookToLibrary(); 
+          addHtmlTag();
+          // let trashs = document.getElementsByClassName('delete');
+         
+      
     }
 
-function addHtmlTag(){
-    
-  myLibrary.forEach(element => {
-    
-      newPostTitles = element.title,
-      newPostAuteurs = element.auteur,
-      newPostPages= element.pages;
-      
-      
-      // console.log(myLibrary.indexOf(element));
-      
-      
-    });
+          //  for (i= 0; i <= trashs.length;i++){
 
-    main.appendChild(newPost);
-    newPost.appendChild(newTitle).innerHTML  = newPostTitles,
-    newPost.appendChild(newAuteur).innerHTML = newPostAuteurs,
-    newPost.appendChild(newPages).innerHTML  = newPostPages;
-        
-     
-  }
-
-    save.onclick = render;
+          //   deleteBtn.onclick = function (){
+          //     rem = this[i].parentElement.parentElement;
+          //     rem.remove(rem); 
+          // }
+          //  }
+           
