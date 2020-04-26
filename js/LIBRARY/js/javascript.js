@@ -42,7 +42,16 @@
             }
             newBook.appendChild(newDelete).outerHTML = '<span><button type="button" id="delete"><i class="fas fa-trash-alt fa-lg" style="color: red; align-self: center; padding: 0 10px; margin: -6px;"></i></button></span>'
                 // console.log(readIt.checked); align-self: center; padding: 0 10px; margin: 10px;
-        }
+            }
+            // trashEvent = document.getElementById('delete');
+            trashAdd = document.getElementsByName('delete');
+            // remn.onclick = function (){
+            //     remnv = remn.parentElement.parentElement;
+            //     remnv.remove(remnv);
+                
+            // }
+            console.log(trashAdd);
+
     // function reset(){
          
     //          document.getElementById('title').reset(),
