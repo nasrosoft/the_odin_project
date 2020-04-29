@@ -8,7 +8,15 @@ let poss1 = document.getElementById('1'),
     poss7 = document.getElementById('7'),
     poss8 = document.getElementById('8'),
     poss9 = document.getElementById('9'),
-    div = document.createElement('div'),
+    div1 = document.createElement('div'),
+    div2 = document.createElement('div'),
+    div3 = document.createElement('div'),
+    div4 = document.createElement('div'),
+    div5 = document.createElement('div'),
+    div6 = document.createElement('div'),
+    div7 = document.createElement('div'),
+    div8 = document.createElement('div'),
+    div9 = document.createElement('div'),
     gameBoard = {
         test : ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O'],
         xboard : ['X', 'X', 'X', 'X', 'X'],
@@ -52,31 +60,31 @@ playerWin = [
     }
         
         poss1.onclick = function() {
-            poss1.appendChild(div).innerHTML = 'X';
+            poss1.appendChild(div1).innerHTML = 'X';
         }
         poss2.onclick = function() {
-            poss2.appendChild(div).innerHTML = 'X';
+            poss2.appendChild(div2).innerHTML = 'X';
         }
         poss3.onclick = function() {
-            poss3.appendChild(div).innerHTML = 'X';
+            poss3.appendChild(div3).innerHTML = 'X';
         }
         poss4.onclick = function() {
-            poss4.appendChild(div).innerHTML = 'X';
+            poss4.appendChild(div4).innerHTML = 'X';
         }
         poss5.onclick = function() {
-            poss5.appendChild(div).innerHTML = 'X';
+            poss5.appendChild(div5).innerHTML = 'X';
         }
         poss6.onclick = function() {
-            poss6.appendChild(div).innerHTML = 'X';
+            poss6.appendChild(div6).innerHTML = 'X';
         }
         poss7.onclick = function() {
-            poss7.appendChild(div).innerHTML = 'X';
+            poss7.appendChild(div7).innerHTML = 'X';
         }
         poss8.onclick = function() {
-            poss8.appendChild(div).innerHTML = 'X';
+            poss8.appendChild(div8).innerHTML = 'X';
         }
         poss9.onclick = function() {
-            poss9.appendChild(div).innerHTML = 'X';
+            poss9.appendChild(div9).innerHTML = 'X';
         }
         
 

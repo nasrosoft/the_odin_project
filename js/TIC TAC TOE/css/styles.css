@@ -42,9 +42,9 @@ body{
     justify-content: center;
     text-align: center;
     /* width: 422px; */
-    font-size: 46px;
+    font-size: 74px;
     font-weight: bold;
-    padding: 28px 0;
+    padding: 9px 0;
 }
 .gameboard{
     background-color: #fff;
